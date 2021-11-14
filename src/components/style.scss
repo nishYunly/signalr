@@ -1,0 +1,47 @@
+$chat-background-color : #abaed3;
+$shadow-feilds : 1px 1px 4px  #2C3E50;
+.user-main{
+      display: flex; 
+      width: 50%; 
+      justify-content: center;
+}
+.border-div {
+    background-color: $chat-background-color;
+    box-shadow: $shadow-feilds;
+        // width: 30%;
+        div{
+            display: flex;
+         justify-content: center;
+            padding-bottom: 20px;
+            label {
+                padding: 0px 20px 0 10px;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            input {
+                border: none;
+                width: 60%;
+                height:40px;
+                padding-left : 10px;
+                font-size: 20px;
+                margin-right : 20px;
+                outline: none;
+            }
+            textarea {
+                margin-left : 20px;
+                border: none;
+                width: 60%;
+                height:80px;
+                padding-left : 10px;
+                font-size: 20px;
+                margin-right : 20px;
+                outline: none;
+            }
+            button{
+                width: 80%;
+                height : 40px;
+                outline: none;
+                border : none;
+            }
+        }
+    }
